@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+#formulario input.nome {
+  margin: 5px 5px;
+  width: 200px;
+}
+#formulario input.email {
+  margin: 5px 5px;
+  width: 200px;
+}
+#formulario input.assunto {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+#formulario textarea.msg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
